@@ -7,12 +7,12 @@ public class Bike {
 	private String type;
 	private int engineCC;
 	private double price;
-
+// default constructor
 	public Bike() {
 		super();
 
 	}
-
+// parametrised constructor
 	public Bike(String name, String model, String type, int engineCC, double price) {
 		super();
 		this.name = name;
